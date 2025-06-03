@@ -1,3 +1,5 @@
 .CVEfixes.ini
 CVEfixes*.db
 CVEfixes*.sql.gz
+.venv
+__pycache__/
