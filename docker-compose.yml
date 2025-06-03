@@ -1,0 +1,9 @@
+services:
+  cvefixes:
+    container_name: cvefixes
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/cvefixes
+    working_dir: /cvefixes
